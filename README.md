@@ -1,2 +1,0 @@
-# helix
-Helix Editor configuration
