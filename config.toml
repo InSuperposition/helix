@@ -1,4 +1,4 @@
-theme = "onedark"
+# theme = "cobalt2"
 
 [editor]
 # line-number = "relative"
@@ -14,6 +14,7 @@ line-number = "relative"
 rulers = [120]
 # Force the theme to show colors
 true-color = true
+
 
 # Minimum severity to show a diagnostic after the end of a line
 end-of-line-diagnostics = "hint"

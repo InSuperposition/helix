@@ -1,0 +1,145 @@
+# Syntax Highlighting
+"comment" = { fg = "light_blue", modifiers = ["italic"] }
+"constant" = { fg = "red" }
+"entity" = { fg = "yellow" }
+"invalid" = { fg = "error_red" }
+"keyword" = { fg = "orange" }
+"markup.inserted" = { fg = "added_green" }
+"markup.deleted" = { fg = "red" }
+"meta" = { fg = "cyan" }
+"punctuation" = { fg = "light_gray" }
+"storage" = { fg = "yellow" }
+"string" = { fg = "green" }
+"variable" = { fg = "light_gray" }
+"function" = { fg = "yellow" }
+"type" = { fg = "pink", modifiers = ["italic"] }
+"interface" = { fg = "pink", modifiers = ["italic"] }
+"property" = { fg = "cyan" }
+"storage.type.function.js" = { fg = "magenta" }
+"variable.language.js" = { fg = "magenta" }
+# "type" = "yellow"
+# "constant" = "purple" # TODO
+"constant.numeric" = "green"
+"constant.character.escape" = "cyan"
+# "string" = "green"
+"string.regexp" = "orange"
+# "comment" = "grey"
+# "variable" = "fg"
+"variable.builtin" = "orange"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
+"label" = "orange"
+# "punctuation" = "grey"
+"punctuation.delimiter" = "grey"
+"punctuation.bracket" = "fg"
+# "keyword" = "purple"
+"keyword.directive" = "cyan"
+"operator" = "red"
+# "function" = "blue"
+"function.builtin" = "blue"
+"function.macro" = "cyan"
+"tag" = "cyan"
+"namespace" = "red"
+"attribute" = "yellow"
+# "constructor" = "yellow"
+"module" = "red"
+"special" = "orange"
+"support" = { fg = "#80ffbb" }
+
+
+# UI Elements
+"ui.background" = { bg = "dark_blue" }
+"ui.background.separator" = { fg = "charcoal" }
+"ui.cursor" = { fg = "yellow" }
+"ui.cursor.normal" = { fg = "yellow" }
+"ui.cursor.insert" = { fg = "green" }
+"ui.cursor.select" = { fg = "magenta" }
+"ui.cursor.match" = { bg = "bracket_match", fg = "yellow" }
+"ui.cursor.primary" = { fg = "white" }
+"ui.cursor.primary.normal" = { fg = "white" }
+"ui.cursor.primary.insert" = { fg = "white" }
+"ui.cursor.primary.select" = { fg = "white" }
+"ui.debug.breakpoint" = { fg = "red" }
+"ui.debug.active" = { fg = "orange" }
+"ui.gutter" = { bg = "charcoal" }
+"ui.gutter.selected" = { bg = "line_highlight" }
+"ui.linenr" = { fg = "gray" }
+"ui.linenr.selected" = { fg = "white" }
+"ui.statusline" = { bg = "deep_blue", fg = "gray" }
+"ui.statusline.inactive" = { bg = "deep_blue", fg = "inactive_gray" }
+"ui.statusline.normal" = { bg = "deep_blue", fg = "yellow" }
+"ui.statusline.insert" = { bg = "deep_blue", fg = "green" }
+"ui.statusline.select" = { bg = "deep_blue", fg = "magenta" }
+"ui.statusline.separator" = { fg = "gray" }
+"ui.bufferline" = { bg = "charcoal", fg = "gray" }
+"ui.bufferline.active" = { bg = "dark_blue", fg = "white" }
+"ui.bufferline.background" = { bg = "charcoal" }
+"ui.popup" = { bg = "deep_blue", fg = "gray" }
+"ui.popup.info" = { bg = "deep_blue", fg = "gray" }
+"ui.picker.header" = { bg = "dark_blue", fg = "white" }
+"ui.picker.header.column" = { fg = "gray" }
+"ui.picker.header.column.active" = { fg = "yellow" }
+"ui.window" = { bg = "charcoal" }
+"ui.help" = { bg = "deep_blue", fg = "gray" }
+"ui.text" = { fg = "white" }
+"ui.text.focus" = { bg = "bracket_match", fg = "white" }
+"ui.text.inactive" = { fg = "inactive_gray" }
+"ui.text.info" = { fg = "yellow" }
+"ui.text.directory" = { fg = "cyan" }
+"ui.virtual.ruler" = { fg = "line_highlight" }
+"ui.virtual.whitespace" = { fg = "#ffffff52" }
+"ui.virtual.indent-guide" = { fg = "indent_guide" }
+"ui.virtual.inlay-hint" = { fg = "pink" }
+"ui.virtual.inlay-hint.parameter" = { fg = "pink" }
+"ui.virtual.inlay-hint.type" = { fg = "pink" }
+"ui.virtual.wrap" = { fg = "gray" }
+"ui.virtual.jump-label" = { fg = "magenta" }
+"ui.menu" = { bg = "deep_blue", fg = "gray" }
+"ui.menu.selected" = { bg = "bracket_match", fg = "white" }
+"ui.menu.scroll" = { fg = "#355166", bg = "#406179" }
+"ui.selection" = { bg = "#0050A4" }
+"ui.selection.primary" = { bg = "selection_blue" }
+"ui.highlight" = { bg = "highlight_blue" }
+"ui.highlight.frameline" = { bg = "orange" }
+"ui.cursorline.primary" = { bg = "line_highlight" }
+"ui.cursorline.secondary" = { bg = "line_highlight" }
+"ui.cursorcolumn.primary" = { bg = "line_highlight" }
+"ui.cursorcolumn.secondary" = { bg = "line_highlight" }
+"warning" = { fg = "yellow" }
+"error" = { fg = "error_red" }
+"info" = { fg = "light_blue" }
+"hint" = { fg = "yellow" }
+"diagnostic" = { fg = "gray" }
+"diagnostic.hint" = { fg = "yellow" }
+"diagnostic.info" = { fg = "light_blue" }
+"diagnostic.warning" = { fg = "yellow" }
+"diagnostic.error" = { fg = "error_red" }
+"diagnostic.unnecessary" = { fg = "inactive_gray" }
+"diagnostic.deprecated" = { fg = "red", modifiers = ["strikethrough"] }
+"tabstop" = { bg = "bracket_match" }
+
+
+[palette]
+white = "#ffffff"
+black = "#000000"
+dark_blue = "#193549"      # editor.background
+light_blue = "#0088ff"     # button.background, comment
+yellow = "#ffc600"         # editorCursor.foreground, entity
+red = "#ff628c"            # constant, markup.deleted
+green = "#a5ff90"          # string.template, CSS entity
+magenta = "#fb94ff"        # JS storage.type.function
+cyan = "#9effff"           # terminal.ansiCyan
+gray = "#aaaaaa"           # editorLineNumber.foreground
+light_gray = "#e1efff"     # variable, punctuation
+orange = "#ff9d00"         # keyword, support.function
+pink = "#FF68B8"           # type, interface
+deep_blue = "#15232d"      # sideBar.background
+charcoal = "#122738"       # activityBar.background
+line_highlight = "#1F4662" # editor.lineHighlightBackground
+bracket_match = "#0d3a58"  # editorBracketMatch.background
+indent_guide = "#3B5364"   # editorIndentGuide.background
+error_red = "#A22929"      # editorError.foreground
+added_green = "#3C9F4A"    # editorGutter.addedBackground
+selection_blue = "#0050A4" # editor.selectionBackground
+inactive_gray = "#808080"  # gitDecoration.ignoredResourceForeground
+highlight_blue = "#243E51" # editor.findRangeHighlightBackground
